@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@hebilicious/vue-query-nuxt": "^0.3.0",
-    "@unocss/nuxt": "^0.61.5",
+    "@tanstack/vue-query": "^5.51.9",
     "nuxt": "^3.12.3",
     "vue": "latest"
   },
-  "packageManager": "pnpm@8.14.3+sha1.872b21adeaae4e71acd5c551ba848d927d6aa446"
+  "packageManager": "pnpm@8.14.3+sha1.872b21adeaae4e71acd5c551ba848d927d6aa446",
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxtjs/tailwindcss": "^6.12.1"
+  }
 }

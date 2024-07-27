@@ -3,5 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   srcDir:'app',
   devtools: { enabled: true },
-  modules: ["@hebilicious/vue-query-nuxt", "@unocss/nuxt"]
+  modules: [
+    "@hebilicious/vue-query-nuxt",
+    "@nuxtjs/i18n",
+    "@nuxtjs/tailwindcss"
+  ]
 })
